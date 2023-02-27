@@ -111,20 +111,17 @@ INSERT INTO service(
     service_type,
     service_mins,
     customer_id,
-    car_id,
-    mechanic_id
+    car_id
 ) VALUES (
     'reattach steering wheel',
     180,
     2,
-    3,
-    1
+    3
 ),
 (
     'replace front wheel',
     360,
     3,
-    2,
     2
 );
 

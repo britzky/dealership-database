@@ -37,9 +37,7 @@ CREATE TABLE service(
     customer_id INTEGER,
     FOREIGN KEY (customer_id) REFERENCES customer(customer_id),
     car_id INTEGER,
-    FOREIGN KEY (car_id) REFERENCES cars(car_id),
-    mechanic_id INTEGER,
-    FOREIGN KEY (mechanic_id) REFERENCES mechanic(mechanic_id)
+    FOREIGN KEY (car_id) REFERENCES cars(car_id)
 );
 
 CREATE TABLE mechanic_ticket(
